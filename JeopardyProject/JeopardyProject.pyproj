@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f98d1a9f-2e40-47db-ad6b-7cebd2a2d46b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>WebsiteScraping.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
