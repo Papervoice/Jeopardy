@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="examplefile.html" />
+    <Content Include="game7792.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EpisodeScraping.py" />
