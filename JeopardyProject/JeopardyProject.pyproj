@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f98d1a9f-2e40-47db-ad6b-7cebd2a2d46b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>WebsiteScraping.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +22,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="WebsiteScraping.py" />
+    <Content Include="examplefile.html" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="examplefile.html" />
+    <Compile Include="EpisodeScraping.py" />
+    <Compile Include="GameIdScraper.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
